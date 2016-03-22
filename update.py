@@ -79,5 +79,5 @@ if update_now:
     config['last_ip'] = my_ip
 
     with open(args.config, 'w') as f:
-        json.dump(config, f)
+        json.dump(config, f, indent=2)
 
