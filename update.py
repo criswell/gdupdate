@@ -4,6 +4,7 @@ from __future__ import print_function
 import json
 import sys
 import argparse
+import requests
 from datetime import datetime, timedelta
 from godaddypy import Client, Account
 
