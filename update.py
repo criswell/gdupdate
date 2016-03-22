@@ -39,7 +39,7 @@ my_ip = ip_info['ip']
 dt = timedelta(
         days=config['refresh_time'].get('days', 0),
         hours=config['refresh_time'].get('hours', 0),
-        seconds=config['refresh_time'].get('seconds', 0)
+        seconds=config['refresh_time'].get('seconds', 0),
         weeks=config['refresh_time'].get('weeks', 0)
         )
 
