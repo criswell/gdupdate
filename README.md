@@ -2,7 +2,7 @@
 
 This is a simple tool to update a given DNS hosts file managed by Godaddy.
 You can (sort of) think of this as a way to get Dynamic DNS from a domain name
-managed by Godaddy. This script can be run manually, from crom, or any other
+managed by Godaddy. This script can be run manually, from cron, or any other
 way a script gets executed on your system.
 
 ## Requirements
