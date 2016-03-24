@@ -69,6 +69,9 @@ IP for the dynamic DNS to work). Of course, it can return *any* IP address
 and the updater will use it. So, if you wanted, you could use this for
 something other than dynamic DNS.
 
+A sample CGI script that can generate such a response can be found
+[here](https://github.com/criswell/scripts/tree/master/ip_addr).
+
 ### Configuration file after run
 
 After the updater script runs, it will update the config JSON file with two
