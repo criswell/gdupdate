@@ -73,7 +73,7 @@ if update_now:
         print("Domain updated successfully!")
 
     print("Current domain info:")
-    print("\t{0}".format(client.get_a_records(domain)))
+    print("\t{0}".format(client.get_records(domain)))
 
     config['last_update'] = now.strftime('%Y-%m-%d %H:%M:%S.%f')
     config['last_ip'] = my_ip
